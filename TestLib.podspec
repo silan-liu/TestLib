@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = 'TestLib'
-  s.version = '2.2.0'
+  s.version = '2.2.1'
   s.license = { :type => 'Copyright', :text => 'LICENSE Copyright 2009 - 2012 UMeng.com, Inc. All rights reserved.' }
   s.summary = 'UMeng analytics SDK for iOS.'
   s.homepage = 'http://dev.umeng.com/'
   s.author = { 'UMeng'=> 'support@umeng.com' }
-  
+
   s.source = { :http => 'http://dev.umeng.com/files/download/Analytics_iOS_SDK_2.2.0.OpenUDID.zip' }
 
   s.platform = :ios
