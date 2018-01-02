@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.author = { 'UMeng'=> 'support@umeng.com' }
   s.source = { :http => 'http://dev.umeng.com/files/download/Analytics_iOS_SDK_2.2.0.OpenUDID.zip' }
 
-  s.platform = :iosß
   s.source_files = 'Analytics_iOS_SDK_2.2.0.OpenUDID/UMAnalytics_Sdk_2.2.0.OpenUDID/*.h'
   s.preserve_paths = 'Analytics_iOS_SDK_2.2.0.OpenUDID/UMAnalytics_Sdk_2.2.0.OpenUDID/*.a'
 
