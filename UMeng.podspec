@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'TestLib'
+  s.name = 'UMeng'
   s.version = '2.2.0'
   s.license = { :type => 'Copyright', :text => 'LICENSE Copyright 2009 - 2012 UMeng.com, Inc. All rights reserved.' }
   s.summary = 'UMeng analytics SDK for iOS.'
