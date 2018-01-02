@@ -5,10 +5,12 @@ Pod::Spec.new do |s|
   s.summary = 'UMeng analytics SDK for iOS.'
   s.homepage = 'http://dev.umeng.com/'
   s.author = { 'UMeng'=> 'support@umeng.com' }
-  s.source = { :http => 'http://localhost/WhatLib.zip' }
+  
+  s.source = { :http => 'http://dev.umeng.com/files/download/Analytics_iOS_SDK_2.2.0.OpenUDID.zip' }
 
-  s.source_files = 'WhatLib/include/*.h'
-  s.preserve_paths = 'WhatLib/*.a'
+  s.platform = :ios
+  s.source_files = 'Analytics_iOS_SDK_2.2.0.OpenUDID/UMAnalytics_Sdk_2.2.0.OpenUDID/*.h'
+  s.preserve_paths = 'Analytics_iOS_SDK_2.2.0.OpenUDID/UMAnalytics_Sdk_2.2.0.OpenUDID/*.a'
 
   s.library = 'z','MobClickLibrary'
   
